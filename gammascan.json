@@ -1,18 +1,18 @@
 {
 	"gammaAccess": {
-		"url": "http://localhost:3000",
-		"userName": "chandrashekhar.bhosale@acellere.com",
-		"password": "admin1234"
+		"url": "http://192.168.2.236:3000",
+		"userName": "admin@mygamma.io",
+		"password": "admin"
 	},
 	"repositories": [{
 		"repository": {
-			"uid": "03506587d861b216312ab9058c725c69",
+			"uid": "c354647af5749a4c02b27f15d9dc1e1a",
 			"projectName": "RJ_PHPUnit_PHP",
 			"sources": {
-				"baseDir": "$WORKSPACE"
+				"baseDir": "$BASE_DIR"
 			}
 		},
-		"dataDir": "/opt/gamma/gamma_data",
+		"dataDir": "$GAMMA_DATA",
 		"modules": {
 			"codeissues": [
 					{
